@@ -7,6 +7,7 @@ import Card from '../../Elements/Card';
 import eletronicaIcone from '../../assets/eletronicaIcone.png'
 import eletronicaCard from '../../assets/eletronicaCard.png'
 import Carrosel from "../../Elements/Carrosel";
+import Footer from "../../Elements/Footer.tsx";
 
 export default function Home() {
     return (
@@ -28,7 +29,7 @@ export default function Home() {
 
 
             <Patrocinadores/>
-            {/* <Footer/> */}
+            <Footer/>
         </>
     )
 }
