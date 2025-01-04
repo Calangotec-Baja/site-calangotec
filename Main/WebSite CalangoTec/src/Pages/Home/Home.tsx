@@ -1,4 +1,4 @@
-import Header from "../../Elements/Header";
+//import Header from "../../Elements/Header";
 import timePrincipal2 from '../../assets/timePrincipal2.png'
 import Sobre from "../../Elements/Sobre";
 import Patrocinadores from "../../Elements/Patrocinadores";
@@ -11,7 +11,7 @@ import Carrosel from "../../Elements/Carrosel";
 export default function Home() {
     return (
         <>
-            <Header/>
+            {/* <Header/> */}
             <main>
                 <img src={timePrincipal2} alt="fotoEquipe" className="w-full"/>
             </main>
