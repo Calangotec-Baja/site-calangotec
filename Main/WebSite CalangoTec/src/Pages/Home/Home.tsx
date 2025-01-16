@@ -1,4 +1,4 @@
-import Header from "../../Elements/Header";
+import Header from "../../Elements/Header2";
 import timePrincipal2 from '../../assets/timePrincipal2.png'
 import Sobre from "../../Elements/Sobre";
 import Patrocinadores from "../../Elements/Patrocinadores";
