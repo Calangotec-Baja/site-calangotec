@@ -15,7 +15,7 @@ function Sobre() {
 
       {/* Header */}
       <div className="flex flex-col text-center text-black text-4xl font-semibold font-['Inter'] pb-2 tracking-wide mb-10 gap-4">
-        <p className="text-black font-semibold text-4xl mb-[-15px]">SOBRE NÓS</p>
+        <p className="text-black font-semibold text-4xl mb-[-15px] drop-shadow-[0_3px_3px_rgba(0,0,0,0.5)]">SOBRE NÓS</p>
         <p className="text-[#666666] font-normal text-lg">Conheça um pouco da nossa equipe!</p>
       </div>
 

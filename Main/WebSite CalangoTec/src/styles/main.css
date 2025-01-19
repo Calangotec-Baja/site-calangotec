@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Estilização personalizada para os pontos do carrossel */
+.react-multi-carousel-dot button {
+    margin-top: 5px;
+    background-color: #FFD700; /* Cor amarela para os pontos */
+    opacity: 0.5; /* Transparência para pontos inativos */
+    transition: opacity 0.3s ease;
+}
+
+.react-multi-carousel-dot--active button {
+    opacity: 1; /* Totalmente visível para o ponto ativo */
+}

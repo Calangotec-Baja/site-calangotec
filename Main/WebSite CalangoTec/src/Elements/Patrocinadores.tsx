@@ -9,7 +9,7 @@ const Patrocinadores = () => {
 
       {/* Título */}
       <div className="flex flex-col text-center text-black text-4xl font-semibold font-['Inter'] pb-2 tracking-wide mb-12 mt-8 gap-4">
-            <p className="text-black font-semibold text-4xl mb-[-10px]">Confira os nossos patrocinadores:</p>
+            <p className="text-black font-semibold text-4xl mb-[-10px] drop-shadow-[0_3px_3px_rgba(0,0,0,0.5)]">Confira os nossos patrocinadores:</p>
             <div className="flex items-center justify-center">
             <div className="border-t-2 border-[#000000] w-16 mx-2"></div>
             <img src={logo} alt="Logo" className="h-14 w-14" />

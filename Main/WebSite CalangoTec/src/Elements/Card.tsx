@@ -23,14 +23,14 @@ function CardGenerico(props: CardGenericoProps) {
             <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition-all duration-300 ease-in-out"></div>
 
             {/* Conteúdo do card */}
-            <div className="absolute inset-0 flex flex-col justify-end p-4 text-white z-10">
+            <div className="absolute inset-0 flex flex-col justify-end p-4 text-yellow-300 z-10">
                 <h3 className="text-2xl font-bold mb-2 uppercase">{props.titulo}</h3>
                 <p className="text-sm mb-4 leading-relaxed line-clamp-3">{props.descricao}</p>
 
                 {/* Botão de ação */}
                 <NavLink
                     to={props.link}
-                    className="inline-block self-start bg-white text-gray-900 py-2 px-4 rounded-md text-sm font-semibold hover:bg-gray-300 transition-transform transform hover:scale-105"
+                    className="inline-block self-start bg-yellow-500 text-gray-900 mb-6 py-2 px-4 rounded-md text-sm font-semibold hover:bg-yellow-600 transition-transform transform hover:scale-105"
                 >
                     Saber mais
                 </NavLink>

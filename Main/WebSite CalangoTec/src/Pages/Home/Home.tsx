@@ -20,7 +20,7 @@ export default function Home() {
 
             {/* SUBSISTEMAS */}
             <div className="flex flex-col text-center text-black text-4xl font-semibold font-['Inter'] pt-16 mb-4 tracking-wide mb-10 gap-4">
-                <p className="text-black font-semibold text-4xl mb-[-15px]">SUBSISTEMAS</p>
+                <p className="text-black font-semibold text-4xl mb-[-15px] drop-shadow-[0_3px_3px_rgba(0,0,0,0.5)]">SUBSISTEMAS</p>
                 <p className="text-[#666666] font-normal text-lg">Fique por dentro dos nossos subsistemas!</p>
             </div>
             <Carrosel/>
