@@ -2,7 +2,7 @@ import bgeletronica from "../Eletronica/bgeltronica.png"
 import Sobre from "./Sobre"
 import Membros from "./Membros"
 
-export default function Eletronica() {
+export default function Freio() {
     return (
         <>
             <div className="flex flex-col gap-16 items-center">
