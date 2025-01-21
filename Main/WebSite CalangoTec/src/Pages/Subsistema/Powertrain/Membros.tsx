@@ -4,6 +4,8 @@ import rafa from "./rafa.png"
 import pedro from "./pedro.png"
 import vini from "./vini.png"
 
+
+
 export default function Membros() {
     return (
         <div className="font-[Inter] flex flex-col w-4/5 items-center">
