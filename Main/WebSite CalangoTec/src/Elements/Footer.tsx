@@ -1,6 +1,6 @@
 import instagram from "../Assets/instaAmarelo.png";
 import linkedin from "../Assets/linkedinAmarelo.png";
-import facebook from "../Assets/faceAmarelo.png";
+import email from "../Assets/logoemailamarelo.png";
 import logoAmarelo from "../Assets/logoAmarelo.png";
 
 
@@ -21,15 +21,15 @@ function Footer() {
         </a>
       </div>
       <div className="flex items-center gap-[16px]">
-        <img className="w-[39px] h-[39px]" src={linkedin} alt="Linkedin" />
+        <img className="w-39px h-[39px]" src={linkedin} alt="Linkedin" />
         <a href="https://br.linkedin.com/company/resgate-pr%C3%A1tico" target="_blank" className="text-[#ffd907] text-[19px] font-bold font-['Inter']">
           Linkedin
         </a>
       </div>
-      <div className="flex items-center gap-[0px]">
-        <img className="w-39px h-39px" src={facebook} alt="Facebook" />
-        <a href="https://m.facebook.com/CalangoTEC/" target="_blank" className="text-[#ffd907] text-[19px] font-bold font-['Inter']">
-          Facebook
+      <div className="flex items-center gap-[14px]">
+        <img className="w-[39px] h-[39px]" src={email} alt="email" />
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=calangotecbaja@gmail.com" target="_blank" className="text-[#ffd907] text-[19px] font-bold font-['Inter']">
+          Email
         </a>
       </div>
     </div>
@@ -63,8 +63,8 @@ function Footer() {
       <div className="text-left">
         <h4 className="text-lg font-bold mb-2 text-[#ffd907]">Contato:</h4>
         <ul>
-          <li className=" font-bold text-[#ffd907]">• +55 (75) 99877-5493</li>
-          <li className=" font-bold text-[#ffd907]">• calangotecbaja@gmail.com</li>
+          <li className=" font-bold text-[#ffd907]">• +55 (75) 99877-5493 (Augusto - Capitão)</li>
+          <li className=" font-bold text-[#ffd907]">• +55 (71) 98392-2618 (Laisa - Vice Capitã)</li>
         </ul>
       </div>
     </div>
