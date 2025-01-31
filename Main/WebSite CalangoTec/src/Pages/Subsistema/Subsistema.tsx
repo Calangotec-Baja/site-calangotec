@@ -6,6 +6,7 @@ import Suspensao from "./Suspensao/Suspensao";
 import Freio from "./Freio/Freio";
 import Gestao from "./Gestao/Gestao";
 import Estrutura from "./Estrutura/Estrutura";
+import Calculo from "./Calculo/Calculo";
 
 export default function Subsistema() {
     const subsistema = useParams().subsistema
@@ -16,6 +17,7 @@ export default function Subsistema() {
     if (subsistema === "freio") element = <Freio />
     if (subsistema === "gestao") element = <Gestao />
     if (subsistema === "estrutura") element = <Estrutura />
+    if (subsistema === "calculo") element = <Calculo />
     return (
         <>
             <Header />

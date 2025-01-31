@@ -10,6 +10,7 @@ export default function Subsistemas() {
             <NavLink to="/subsistemas/freio">Freio</NavLink>
             <NavLink to="/subsistemas/gestao">Gestao</NavLink>
             <NavLink to="/subsistemas/estrutura">Estrutura</NavLink>
+            <NavLink to="/subsistemas/calculo">Calculo</NavLink>
         </>
     )
 }
