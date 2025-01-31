@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo  from '../assets/logoBaja.svg'
-import logo1 from '../assets/logoPret.png'
+import logoAmarelo from '../assets/logoAmarelo.png'
 import { useState } from 'react';
 
 export default function Header() {
@@ -12,8 +11,8 @@ export default function Header() {
         { name: 'CONTATO', link: '/contato' },
     ]
     return (
-        <header className="bg-slate-50 flex flex-col items-center sm:items-start sm:flex-row w-full font-[Inter]">
-            <img src={logo1} alt="Logo" className="size-20 ml-4 p-2" onClick={() => {
+        <header className="bg-black flex flex-col items-center sm:items-start sm:flex-row w-full font-[Inter]">
+            <img src={logoAmarelo} alt="Logo" className="size-20 ml-4 p-2" onClick={() => {
                 if (window.screen.width < 640)
                     setIsOpen(!isOpen);
                 console.log(isOpen)
@@ -24,9 +23,9 @@ export default function Header() {
                     {
                         navbarItens.map(item => (
                             <Link key={item.name} to={item.link} onMouseEnter={() => {
-                                document.getElementById(item.name)!.style.backgroundColor = 'black'
+                                document.getElementById(item.name)!.style.backgroundColor = 'yellow'
                             }} onMouseLeave={() => { document.getElementById(item.name)!.style.backgroundColor = 'transparent' }}>
-                                <li className='font-bold'>{item.name}</li>
+                                <li className='font-bold text-yellow-300'>{item.name}</li>
                                 <div id={item.name} className=' h-[2px] rounded-md transition-all duration-150 ease-in'></div>
                             </Link>
                         ))
