@@ -1,6 +1,8 @@
 import loja from '../../assets/loja.png';
 import Header2 from "../../Elements/Header2";
-import cardLoja2 from "../../assets/cardLoja.png";
+import cardLoja from "../../assets/cardLoja.png";
+import cardLoja1 from "../../assets/card1Loja.png";
+import cardLoja2 from "../../assets/card2Loja.png";
 
 export default function Loja() {
     return (
@@ -18,10 +20,10 @@ export default function Loja() {
                     <div className="flex flex-wrap justify-center items-center gap-[90px] rounded-lg">
                         {/* Card 1 */}
                         <div className="flex flex-col items-center">
-                            <img src={cardLoja2} alt="cardLoja" className="rounded-lg" />
+                            <img src={cardLoja1} alt="cardLoja" className="rounded-lg" />
                             <a href="" target='_blank'>
                                 <button className="w-[308px] mt-4 bg-gray-100 border-2 border-black text-black text-lg px-6 py-2 rounded-md hover:bg-gray-400 transition">
-                                    Uniforme Calango
+                                    Esgotado
                                 </button>
                             </a>
                         </div>
@@ -30,13 +32,13 @@ export default function Loja() {
                             <img src={cardLoja2} alt="cardLoja" className="rounded-lg" />
                             <a href="" target='_blank'>
                                 <button className="w-[308px] mt-4 bg-gray-100 border-2 border-black text-black text-lg px-6 py-2 rounded-md hover:bg-gray-400 transition">
-                                    Comprar
+                                    Esgotado
                                 </button>
                             </a>
                         </div>
                         {/* Card 3 */}
                         <div className="flex flex-col items-center">
-                            <img src={cardLoja2} alt="cardLoja" className="rounded-lg" />
+                            <img src={cardLoja} alt="cardLoja" className="rounded-lg" />
                             <a href="" target='_blank'>
                                 <button className="w-[308px] mt-4 bg-gray-100 border-2 border-black text-black text-lg px-6 py-2 rounded-md hover:bg-gray-400 transition">
                                     Comprar
@@ -46,7 +48,7 @@ export default function Loja() {
                     
                         {/* Card 4 */}
                         <div className="flex flex-col items-center">
-                            <img src={cardLoja2} alt="cardLoja" className="rounded-lg" />
+                            <img src={cardLoja} alt="cardLoja" className="rounded-lg" />
                             <a href="" target='_blank'>
                                 <button className="w-[308px] mt-4 bg-gray-100 border-2 border-black text-black text-lg px-6 py-2 rounded-md hover:bg-gray-400 transition">
                                     Comprar
@@ -55,7 +57,7 @@ export default function Loja() {
                         </div>
                         {/* Card 5 */}
                         <div className="flex flex-col items-center">
-                            <img src={cardLoja2} alt="cardLoja" className="rounded-lg" />
+                            <img src={cardLoja} alt="cardLoja" className="rounded-lg" />
                             <a href="" target='_blank'>
                                 <button className="w-[308px] mt-4 bg-gray-100 border-2 border-black text-black text-lg px-6 py-2 rounded-md hover:bg-gray-400 transition">
                                     Comprar
@@ -64,7 +66,7 @@ export default function Loja() {
                         </div>
                         {/* Card 6 */}
                         <div className="flex flex-col items-center">
-                            <img src={cardLoja2} alt="cardLoja" className="rounded-lg" />
+                            <img src={cardLoja} alt="cardLoja" className="rounded-lg" />
                             <a href="" target='_blank'>
                                 <button className="w-[308px] mt-4 bg-gray-100 border-2 border-black text-black text-lg px-6 py-2 rounded-md hover:bg-gray-400 transition">
                                     Comprar
